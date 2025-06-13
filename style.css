@@ -1,0 +1,18 @@
+
+    @keyframes roleta {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      80% {
+        transform: rotate(1080deg);
+      }
+
+      100% {
+        transform: rotate(1080deg);
+      }
+    }
+
+    .animate-roleta {
+      animation: roleta 2s ease-out forwards;
+    }
